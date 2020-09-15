@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 99.172 s <<< FAILURE! - in TestSuite
+pe.edu.galaxy.Invoice.salePekosita  Time elapsed: 5.232 s  <<< FAILURE!
+java.lang.AssertionError: expected:<SUNAT: El dato ingresado como unidad de medida no corresponde al valor esperado - Detalle: xxx.xxx.xxx value='ticket: 1600110682097 error: : 2936: Valor no se encuentra en el catalogo: 03 (nodo: "cbc:InvoicedQuantity/unitCode" valor: "UND")'> but was:<SUNAT: El dato ingresado como unidad de medida no corresponde al valor esperado - Detalle: xxx.xxx.xxx value='ticket: 1600144105981 error: : 2936: Valor no se encuentra en el catalogo: 03 (nodo: "cbc:InvoicedQuantity/unitCode" valor: "UND")'>
+	at pe.edu.galaxy.Invoice.salePekosita(Invoice.java:86)
+
