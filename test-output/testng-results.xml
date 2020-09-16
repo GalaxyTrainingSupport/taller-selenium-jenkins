@@ -1,197 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-14T21:25:58 PET" name="Ecommerce Suite" finished-at="2020-09-14T21:27:44 PET" duration-ms="106133">
+  <suite started-at="2020-09-15T20:12:09 PET" name="Default suite" finished-at="2020-09-15T20:12:57 PET" duration-ms="47809">
     <groups>
     </groups>
-    <test started-at="2020-09-14T21:25:58 PET" name="Regression Test" finished-at="2020-09-14T21:27:01 PET" duration-ms="63261">
-      <class name="pe.edu.galaxy.Annotations">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="beforeTest" finished-at="2020-09-14T21:25:58 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="beforeClass" finished-at="2020-09-14T21:25:58 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="beforeMethod" finished-at="2020-09-14T21:25:58 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test()[pri:1, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="test" finished-at="2020-09-14T21:25:58 PET" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="afterMethod" finished-at="2020-09-14T21:25:58 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="beforeMethod" finished-at="2020-09-14T21:25:58 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:2, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="test2" finished-at="2020-09-14T21:25:58 PET" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="afterMethod" finished-at="2020-09-14T21:25:58 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:25:58 PET" name="afterClass" finished-at="2020-09-14T21:25:58 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pe.edu.galaxy.Annotations@6295d394]" started-at="2020-09-14T21:27:01 PET" name="afterTest" finished-at="2020-09-14T21:27:01 PET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- pe.edu.galaxy.Annotations -->
+    <test started-at="2020-09-15T20:12:09 PET" name="Default test" finished-at="2020-09-15T20:12:57 PET" duration-ms="47809">
       <class name="pe.edu.galaxy.Shopping">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pe.edu.galaxy.Shopping@475e586c]" started-at="2020-09-14T21:25:58 PET" name="beforeClass" finished-at="2020-09-14T21:26:15 PET" duration-ms="17019" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pe.edu.galaxy.Shopping@4034c28c]" started-at="2020-09-15T20:12:09 PET" name="beforeClass" finished-at="2020-09-15T20:12:17 PET" duration-ms="8176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="getLisProducts()[pri:1, instance:pe.edu.galaxy.Shopping@475e586c]" started-at="2020-09-14T21:26:15 PET" name="getLisProducts" finished-at="2020-09-14T21:26:15 PET" duration-ms="118" status="PASS">
+        <test-method signature="getLisProducts()[pri:1, instance:pe.edu.galaxy.Shopping@4034c28c]" started-at="2020-09-15T20:12:17 PET" name="getLisProducts" finished-at="2020-09-15T20:12:17 PET" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getLisProducts -->
-        <test-method signature="addFirstItem()[pri:2, instance:pe.edu.galaxy.Shopping@475e586c]" started-at="2020-09-14T21:26:15 PET" name="addFirstItem" finished-at="2020-09-14T21:26:27 PET" duration-ms="11888" status="PASS">
+        <test-method signature="addFirstItem()[pri:2, instance:pe.edu.galaxy.Shopping@4034c28c]" started-at="2020-09-15T20:12:17 PET" name="addFirstItem" finished-at="2020-09-15T20:12:26 PET" duration-ms="8541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addFirstItem -->
-        <test-method signature="addMoreItem()[pri:3, instance:pe.edu.galaxy.Shopping@475e586c]" started-at="2020-09-14T21:26:27 PET" name="addMoreItem" finished-at="2020-09-14T21:26:42 PET" duration-ms="14644" status="PASS">
+        <test-method signature="addMoreItem()[pri:3, instance:pe.edu.galaxy.Shopping@4034c28c]" started-at="2020-09-15T20:12:26 PET" name="addMoreItem" finished-at="2020-09-15T20:12:40 PET" duration-ms="13763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMoreItem -->
-        <test-method signature="shippingAddress()[pri:4, instance:pe.edu.galaxy.Shopping@475e586c]" started-at="2020-09-14T21:26:42 PET" name="shippingAddress" finished-at="2020-09-14T21:26:50 PET" duration-ms="8092" status="PASS">
+        <test-method signature="shippingAddress()[pri:4, instance:pe.edu.galaxy.Shopping@4034c28c]" started-at="2020-09-15T20:12:40 PET" name="shippingAddress" finished-at="2020-09-15T20:12:47 PET" duration-ms="7637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shippingAddress -->
-        <test-method signature="completeOrder()[pri:5, instance:pe.edu.galaxy.Shopping@475e586c]" started-at="2020-09-14T21:26:50 PET" name="completeOrder" finished-at="2020-09-14T21:26:56 PET" duration-ms="5928" status="PASS">
+        <test-method signature="completeOrder()[pri:5, instance:pe.edu.galaxy.Shopping@4034c28c]" started-at="2020-09-15T20:12:47 PET" name="completeOrder" finished-at="2020-09-15T20:12:52 PET" duration-ms="4211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeOrder -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:pe.edu.galaxy.Shopping@475e586c]" started-at="2020-09-14T21:26:56 PET" name="afterClass" finished-at="2020-09-14T21:27:01 PET" duration-ms="5426" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pe.edu.galaxy.Shopping@4034c28c]" started-at="2020-09-15T20:12:52 PET" name="afterClass" finished-at="2020-09-15T20:12:57 PET" duration-ms="5265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- pe.edu.galaxy.Shopping -->
-    </test> <!-- Regression Test -->
-    <test started-at="2020-09-14T21:27:02 PET" name="Integration Test" finished-at="2020-09-14T21:27:44 PET" duration-ms="42276">
-      <class name="pe.edu.galaxy.Annotations">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:25:58 PET" name="beforeSuite" finished-at="2020-09-14T21:25:58 PET" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:02 PET" name="beforeTest" finished-at="2020-09-14T21:27:02 PET" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="beforeMethod" finished-at="2020-09-14T21:27:44 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="beforeClass" finished-at="2020-09-14T21:27:44 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="test()[pri:1, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="test" finished-at="2020-09-14T21:27:44 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="afterMethod" finished-at="2020-09-14T21:27:44 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="beforeMethod" finished-at="2020-09-14T21:27:44 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:2, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="test2" finished-at="2020-09-14T21:27:44 PET" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="afterMethod" finished-at="2020-09-14T21:27:44 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="afterClass" finished-at="2020-09-14T21:27:44 PET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="afterTest" finished-at="2020-09-14T21:27:44 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:pe.edu.galaxy.Annotations@6b4a4e18]" started-at="2020-09-14T21:27:44 PET" name="afterSuite" finished-at="2020-09-14T21:27:44 PET" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- pe.edu.galaxy.Annotations -->
-      <class name="pe.edu.galaxy.Invoice">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pe.edu.galaxy.Invoice@27c86f2d]" started-at="2020-09-14T21:27:02 PET" name="beforeClass" finished-at="2020-09-14T21:27:22 PET" duration-ms="20230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="goToSingIn()[pri:1, instance:pe.edu.galaxy.Invoice@27c86f2d]" started-at="2020-09-14T21:27:22 PET" name="goToSingIn" finished-at="2020-09-14T21:27:29 PET" duration-ms="7014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goToSingIn -->
-        <test-method signature="setCredential()[pri:2, instance:pe.edu.galaxy.Invoice@27c86f2d]" started-at="2020-09-14T21:27:29 PET" name="setCredential" finished-at="2020-09-14T21:27:33 PET" duration-ms="3485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setCredential -->
-        <test-method signature="salePekosita()[pri:3, instance:pe.edu.galaxy.Invoice@27c86f2d]" started-at="2020-09-14T21:27:33 PET" name="salePekosita" finished-at="2020-09-14T21:27:38 PET" duration-ms="5402" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<SUNAT: El dato ingresado como unidad de medida no corresponde al valor esperado - Detalle: xxx.xxx.xxx value='ticket: 1600110682097 error: : 2936: Valor no se encuentra en el catalogo: 03 (nodo: "cbc:InvoicedQuantity/unitCode" valor: "UND")'> but was:<SUNAT: El dato ingresado como unidad de medida no corresponde al valor esperado - Detalle: xxx.xxx.xxx value='ticket: 1600136466505 error: : 2936: Valor no se encuentra en el catalogo: 03 (nodo: "cbc:InvoicedQuantity/unitCode" valor: "UND")'>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<SUNAT: El dato ingresado como unidad de medida no corresponde al valor esperado - Detalle: xxx.xxx.xxx value='ticket: 1600110682097 error: : 2936: Valor no se encuentra en el catalogo: 03 (nodo: "cbc:InvoicedQuantity/unitCode" valor: "UND")'> but was:<SUNAT: El dato ingresado como unidad de medida no corresponde al valor esperado - Detalle: xxx.xxx.xxx value='ticket: 1600136466505 error: : 2936: Valor no se encuentra en el catalogo: 03 (nodo: "cbc:InvoicedQuantity/unitCode" valor: "UND")'>
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:82)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:87)
-at pe.edu.galaxy.Invoice.salePekosita(Invoice.java:86)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- salePekosita -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:pe.edu.galaxy.Invoice@27c86f2d]" started-at="2020-09-14T21:27:38 PET" name="afterClass" finished-at="2020-09-14T21:27:44 PET" duration-ms="6074" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- pe.edu.galaxy.Invoice -->
-    </test> <!-- Integration Test -->
-  </suite> <!-- Ecommerce Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

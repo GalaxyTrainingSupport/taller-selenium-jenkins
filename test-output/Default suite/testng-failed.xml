@@ -6,7 +6,6 @@
       <class name="pe.edu.galaxy.Shopping">
         <methods>
           <include name="afterClass"/>
-          <include name="shippingAddress"/>
           <include name="completeOrder"/>
           <include name="beforeClass"/>
         </methods>

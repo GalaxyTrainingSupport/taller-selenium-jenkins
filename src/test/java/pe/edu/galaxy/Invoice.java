@@ -43,6 +43,9 @@ public class Invoice {
 		driver.findElement(By.name("email")).sendKeys("lruizajax@gmail.com");
 		driver.findElement(By.name("password")).sendKeys("L1ma2020");
 		driver.findElement(By.xpath("//*[@id=\"btnSubmit\"]")).submit();
+		//driver.findElement(By.id("btnSubmit")).submit();
+		////*[@id="btnSubmit"]
+		//driver.findElement(By)
 	
 		Thread.sleep(3000);
 		
@@ -62,7 +65,7 @@ public class Invoice {
 		
 		driver.findElement(By.cssSelector("#page-wrapper > section > div > div > div > div > section > div.ibox.collapsed.invoice_details.m-l.m-r.m-b > div.ibox-title > div > a")).click();
 		
-		driver.findElement(By.id("expires_at")).sendKeys("14/09/2020");
+		driver.findElement(By.id("expires_at")).sendKeys("15/09/2020");
 		driver.findElement(By.id("expires_at")).sendKeys(Keys.ESCAPE);
 		
 		driver.findElement(By.id("obser")).sendKeys("Selenium + TestNG with Jenkins");
